@@ -3,22 +3,30 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Content/myStyle.css" rel="stylesheet">
     <div class="container body-content">
-        <ul class="nav flex-column projectDiv">
+        <div>
+            <ul class="nav flex-column">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link" href="#">跑酷遊戲</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">智慧空調</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">特約頭家</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#">物聯網中介軟體</a>
             </li>
-        </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="#">臉部偵測</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">連結QRcode</a>
+            </li>
+            </ul>
+        </div>
 
-        <div class="projectDiv">
+        <div>
 		    <div>
 			    <h2>跑酷遊戲</h2>              
                 <p>
@@ -31,10 +39,10 @@
             </div>
             <hr>
             <div>
-			    <h2 class="content-subhead">智慧空調</h2>
+			    <h2>智慧空調</h2>
                 <p>
                 利用手機app遠端操控家裡的冷氣。採用.net core 2.0 + asp.net core signalr來達到跨平台即時通訊，藉此達成遠端操控的目標。<P>
-				<img class="img-fluid myImage" src="images/iotAirConditioner.jpg"/><p>
+				<img class="img-responsive" src="images/iotAirConditioner.jpg"/><p>
                 <a href="https://github.com/soyCracker/iotAirConditioner">https://github.com/soyCracker/iotAirConditioner</a><p>
                 </p>
             </div>
@@ -43,7 +51,7 @@
 			    <h2>特約頭家</h2>
                 <p>
                 替代役期間幫資訊室同事修改android app ui，使其與ios版本一致<P>
-				<img class="img-fluid" src="images/TouJia.jpg"/><p>
+				<img class="img-responsive" src="images/TouJia.jpg"/><p>
                 </p>
             </div>
 		    <hr>
@@ -53,7 +61,7 @@
                 以java實作Android平台上的物聯網中介軟體及設計一套API，藉著動態載入的特性，
 				使物聯網裝置達到隨插即用的功能，以協助開發人員快速建立能與裝置端溝通的程式。<p>
 				提供API：Bluetooth、 httpURLconnect、Fingerprint(測試中)<p>
-				<img class="img-fluid myImage" src="images/iotmiddleware.png"/><p>
+				<img class="img-responsive" src="images/iotmiddleware.png"/><p>
                 <a href="https://github.com/soyCracker/DL-IoT-Middleware">https://github.com/soyCracker/DL-IoT-Middleware</a><p>
                 </p>
 		    </div>
