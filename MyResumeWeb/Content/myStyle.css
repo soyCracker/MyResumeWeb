@@ -1,0 +1,19 @@
+﻿.textShadow {
+    color: #6C6C6C;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff
+}
+
+.background {
+    background: url(../Images/background.jpg) no-repeat center 30px;
+    min-height: 662px;
+    background-size: 100% 100%;
+}
+
+.projectDiv {
+    float: left;
+}
+
+.myImage {
+    max-width:100%;
+    height:auto;
+}
